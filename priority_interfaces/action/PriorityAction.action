@@ -1,0 +1,9 @@
+# Goal definition
+int32 order
+int8 priority  # 0=low, 1=high
+---
+# Result definition
+int32[] sequence
+---
+# Feedback definition
+int32[] partial_sequence
